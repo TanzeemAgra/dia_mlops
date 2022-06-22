@@ -16,3 +16,4 @@ scikit-learn
 matplotlib
 dvc
 dvc[gdrive]
+jupyterlab
