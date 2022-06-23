@@ -17,3 +17,6 @@ matplotlib
 dvc
 dvc[gdrive]
 jupyterlab
+flask
+gunicorn
+
