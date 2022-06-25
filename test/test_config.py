@@ -30,14 +30,14 @@ input_data = {
     },
 
     "incorrect_col":
-    {"Pregnancies": 12, 
-    "Glucose": 149, 
-    "BloodPressure": 119, 
-    "SkinThickness": 40, 
-    "Insulin": 100, 
-    "BMI": 39, 
-    "DiabetesPedigreeFunction": 0.9, 
-    "Age": 32
+    {"Pregnancies": 16, 
+    "Glucose": 150, 
+    "BloodPressure": 120, 
+    "SkinThickness": 42, 
+    "Insulin": 120, 
+    "BMI": 41, 
+    "DiabetesPedigreeFunction": 1, 
+    "Age": 30
     },
 }
 
