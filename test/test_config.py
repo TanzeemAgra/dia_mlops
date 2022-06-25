@@ -8,51 +8,42 @@ import prediction_service
 
 input_data = {
     "incorrect_range": 
-    {"fixed_acidity": 7897897, 
-    "volatile_acidity": 555, 
-    "citric_acid": 99, 
-    "residual_sugar": 99, 
-    "chlorides": 12, 
-    "free_sulfur_dioxide": 789, 
-    "total_sulfur_dioxide": 75, 
-    "density": 2, 
-    "pH": 33, 
-    "sulphates": 9, 
-    "alcohol": 9
+    {"Pregnancies": 7897897, 
+    "Glucose": 555, 
+    "BloodPressure": 99, 
+    "SkinThickness": 99, 
+    "Insulin": 12, 
+    "BMI": 789, 
+    "DiabetesPedigreeFunction": 75, 
+    "Age": 2
     },
 
     "correct_range":
-    {"fixed_acidity": 5, 
-    "volatile_acidity": 1, 
-    "citric_acid": 0.5, 
-    "residual_sugar": 10, 
-    "chlorides": 0.5, 
-    "free_sulfur_dioxide": 3, 
-    "total_sulfur_dioxide": 75, 
-    "density": 1, 
-    "pH": 3, 
-    "sulphates": 1, 
-    "alcohol": 9
+    {"Pregnancies": 16, 
+    "Glucose": 150, 
+    "BloodPressure": 120, 
+    "SkinThickness": 42, 
+    "Insulin": 120, 
+    "BMI": 41, 
+    "DiabetesPedigreeFunction": 1, 
+    "Age": 30
     },
 
     "incorrect_col":
-    {"fixed acidity": 5, 
-    "volatile acidity": 1, 
-    "citric acid": 0.5, 
-    "residual sugar": 10, 
-    "chlorides": 0.5, 
-    "free sulfur dioxide": 3, 
-    "total_sulfur dioxide": 75, 
-    "density": 1, 
-    "pH": 3, 
-    "sulphates": 1, 
-    "alcohol": 9
-    }
+    {"Pregnancies": 12, 
+    "Glucose": 149, 
+    "BloodPressure": 119, 
+    "SkinThickness": 40, 
+    "Insulin": 100, 
+    "BMI": 39, 
+    "DiabetesPedigreeFunction": 0.9, 
+    "Age": 32
+    },
 }
 
 TARGET_range = {
-    "min": 3.0,
-    "max": 8.0
+    "min": 0.0,
+    "max": 1.0
 }
 
 def test_form_response_correct_range(data=input_data["correct_range"]):
